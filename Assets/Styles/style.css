@@ -74,6 +74,7 @@ body {
   background-image: url("https://cdn.pixabay.com/photo/2018/05/16/22/27/rose-3407234_1280.jpg");
   height: 350px;
   opacity: 90%;
+  background-color: #330133;
 }
 
 .message {
@@ -166,4 +167,16 @@ body {
   background-color: rgb(141, 129, 220);
   height: 250px;
   width: 50%;
+}
+
+.flower {
+  text-decoration: none;
+}
+
+.collection {
+  background-color: #f5d3f5;
+  text-align: center;
+  height: 80px;
+  margin-top: 50px;
+
 }
