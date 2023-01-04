@@ -217,13 +217,31 @@ body {
 .center {
   text-align: center;
   align-content: center;
-  top: 50%;
-  left: 50%;
-  margin-bottom: 50%;
-  
-}
-
-.division {
+  display: flex;
+  justify-content: center;
 
 }
+
+.container {
+  height: 300px;
+  height: 200px;
+  display: flex;
+  flex: wrap;
+  background-image: url("Assets/Media/Images/pexels-somben-chea-1266130.jpg");
+}
+
+.gfg {
+  margin: 5%;
+  margin-left: 18%;
+  position: relative;
+}
+
+.second-txt {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  font-family: 'Righteous', cursive;
+}
+
+
 
